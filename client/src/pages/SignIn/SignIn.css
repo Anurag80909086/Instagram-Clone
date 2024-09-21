@@ -1,7 +1,48 @@
 .login {
   /* border: 1px solid black; */
+  margin-top: 10px;
 }
 .loginWrapper {
-  border: 1px solid black;
-  padding: 40px 30px;
+  border: 1px solid rgb(202, 202, 202);
+  padding: 40px 35px;
+  flex-direction: column;
+}
+
+.loginWrapper form {
+  /* border: 1px solid red; */
+  margin-top: 45px;
+  max-width: 100%;
+  min-width: 300px;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.loginWrapper form input,
+button {
+  width: 100%;
+}
+
+.loginWrapper form input {
+  background-color: rgb(250, 250, 250);
+  padding: 10px 8px;
+  outline: none;
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 2px;
+}
+
+.loginWrapper form input::placeholder {
+  font-size: 11px;
+  color: rgb(126, 124, 124);
+}
+
+.loginWrapper form button{
+    outline:none;
+    background-color: rgb(73, 189, 235);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 8px 0;
+    margin-top: 5px;
 }
