@@ -114,7 +114,7 @@ button {
   font-family: Segoe UI, Roboto, Helvetica, Arial, sans-serif;
 }
 
-.lowerPart #signup {
+.lowerPart #signup a {
   font-weight: 600;
   color: rgb(7, 153, 250);
   cursor: pointer;
