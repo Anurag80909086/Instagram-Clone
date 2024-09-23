@@ -1,6 +1,7 @@
 import "./SignIn.css";
 import { IoLogoFacebook } from "react-icons/io";
 import InstaLogoBlack from "../../components/Insta_Logo_Black/InstaLogoBlack.jsx";
+import { Link } from "react-router-dom";
 const SignIn = () => {
   return (
     <div className="login flex">
@@ -33,7 +34,10 @@ const SignIn = () => {
       </div>
       <div className="lowerPart flex">
         <div className="text">
-          Do you have an account? <span id="signup">Sign up</span>
+          Do you have an account?{" "}
+          <span id="signup">
+            <Link to="/sign-up">Sign up</Link>
+          </span>
         </div>
       </div>
     </div>
