@@ -1,40 +1,44 @@
-.signup {
-  /* border: 1px solid black; */
+.login {
   margin-top: 10px;
-}
-.signupWrapper {
-  border: 1px solid rgb(202, 202, 202);
-  padding: 40px 35px;
+  gap: 10px;
   flex-direction: column;
 }
+.loginWrapper {
+  border: 1px solid rgb(202, 202, 202);
+  padding: 40px 40px;
+  flex-direction: column;
+  width: 352px;
+}
 
-.signupWrapper form {
-  /* border: 1px solid red; */
+/* this is form css */
+
+.loginWrapper form {
+  margin-top: 45px;
   max-width: 100%;
-  min-width: 300px;
+  min-width: 255px;
   flex-direction: column;
   gap: 7px;
 }
 
-.signupWrapper form input,
+.loginWrapper form input,
 button {
   width: 100%;
 }
 
-.signupWrapper form input {
+.loginWrapper form input {
   background-color: rgb(250, 250, 250);
-  padding: 10px 8px;
+  padding: 10px 10px;
   outline: none;
   border: 1px solid rgb(202, 202, 202);
   border-radius: 2px;
 }
 
-.signupWrapper form input::placeholder {
+.loginWrapper form input::placeholder {
   font-size: 11px;
   color: rgb(126, 124, 124);
 }
 
-.signupWrapper form button {
+.loginWrapper form button {
   outline: none;
   background-color: rgb(73, 189, 235);
   border: none;
@@ -45,29 +49,73 @@ button {
   padding: 8px 0;
   margin-top: 5px;
 }
-.signupWrapper > div {
+
+/* this is devider css */
+
+.devider {
   width: 100%;
-  height: 40px;
+  margin-top: 20px;
+}
+.devider .devidebar {
+  flex-grow: 1;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(202, 202, 202);
+}
+
+.devider span {
+  color: rgb(129, 129, 129);
+  padding: 0 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* this is optionLogin css */
+
+.optionLogin {
+  width: 100%;
   flex-direction: column;
-  margin: 30px 0;
-  gap: 10px;
+  gap: 16px;
+  margin-top: 30px;
 }
-.signupWrapper > div > span {
+
+.optionLogin .facebookOption {
+  color: #385185;
+  gap: 6px;
+  font-size: 15px;
   font-weight: 600;
-  color: rgb(115, 115, 115);
-  text-align: center;
-}
-.signupWrapper > div > button {
+  cursor: pointer;
   width: 100%;
-  background-color: #0095f6;
-  outline: none;
-  border: none;
-  padding: 8px 0;
-  border-radius: 8px;
-  color: rgb(255, 255, 255);
-  font-weight: 600;
 }
 .facebookIcon {
-  font-size: 20px;
-  margin-right: 5px;
+  color: rgb(51, 51, 146);
+  font-size: 22px;
+}
+
+.optionLogin a {
+  text-decoration: none;
+  font-size: 13px;
+  cursor: pointer;
+  color: rgb(0, 55, 107);
+}
+
+/* this is lower part css */
+
+.lowerPart {
+  border: 1px solid rgb(202, 202, 202);
+  padding: 21px 40px;
+  flex-direction: column;
+  width: 352px;
+}
+
+.lowerPart .text {
+  color: black;
+  font-size: 14px;
+  font-family: Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.lowerPart #signup {
+  font-weight: 600;
+  color: rgb(7, 153, 250);
+  cursor: pointer;
 }
