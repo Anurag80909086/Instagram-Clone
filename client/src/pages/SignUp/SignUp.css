@@ -38,7 +38,7 @@ button {
   color: rgb(126, 124, 124);
 }
 
-.loginWrapper form button {
+.loginWrapper form button a {
   outline: none;
   background-color: rgb(73, 189, 235);
   border: none;
@@ -115,7 +115,7 @@ button {
   font-family: Segoe UI, Roboto, Helvetica, Arial, sans-serif;
 }
 
-.lowerPart #signup {
+.lowerPart #signup a {
   font-weight: 600;
   color: rgb(7, 153, 250);
   cursor: pointer;

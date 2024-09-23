@@ -52,13 +52,16 @@ const SignUp = () => {
           </div>
 
           <button type="submit">
-            <Link to="/sign-up">Sign Up</Link>
+            <Link to="/sign-in">Sign Up</Link>
           </button>
         </form>
       </div>
       <div className="lowerPart flex">
         <div className="text">
-          Have an account? <span id="signup">Sign In</span>
+          Have an account?{" "}
+          <span id="signup">
+            <Link to="/sign-in">Sign In</Link>
+          </span>
         </div>
       </div>
     </div>
