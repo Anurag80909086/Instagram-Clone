@@ -1,0 +1,50 @@
+.footer {
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  padding: 60px 0;
+}
+
+.footer ul {
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.footer ul li {
+  list-style: none;
+  cursor: pointer;
+  color: rgb(115, 115, 115);
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.footer ul li:hover {
+  text-decoration: underline;
+}
+
+.copyrightSection {
+  gap: 13px;
+  margin-top: 10px;
+}
+.copyrightSection {
+  color: rgb(115, 115, 115);
+  font-size: 12px;
+  font-weight: 400;
+}
+.copyrightSection select {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: rgb(115, 115, 115);
+  font-size: 12px;
+  font-weight: 400;
+}
+.copyrightSection select option {
+  color: rgb(115, 115, 115);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.copyrightSection span:hover {
+  text-decoration: underline;
+}
