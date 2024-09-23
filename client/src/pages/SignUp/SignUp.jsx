@@ -6,34 +6,55 @@ const SignUp = () => {
     <div className="login flex">
       <div className="loginWrapper flex">
         <InstaLogoBlack />
-        <form action="submit" className="flex">
-          <input
-            type="email"
-            required
-            placeholder="Phone number, username, or email"
-          />
-          <input type="password" required placeholder="Password" />
-          <button type="submit">Log in</button>
-        </form>
-
+        <div className="TextWrapper">
+          <p className="text">
+            Sign up to see photos and videos from your friends.
+          </p>
+          <button className="flex">
+            <IoLogoFacebook className="facebookIcon" />
+            Log in with Facebook
+          </button>
+        </div>
         <div className="devider flex">
           <div className="devidebar"></div>
           <span>OR</span>
           <div className="devidebar"></div>
         </div>
-
-        <div className="optionLogin flex">
-          <div className="facebookOption flex">
-            <IoLogoFacebook className="facebookIcon" /> Login with Facebook
+        <form action="submit" className="flex">
+          <input type="text" required placeholder="Mobile Number or Email" />
+          <input type="text" required placeholder="Full Name" />
+          <input type="text" required placeholder="Username" />
+          <input type="password" required placeholder="Password" />
+          <div className="wrapper flex">
+            <p>
+              People who use our service may have uploaded your contact
+              information to Instagram.
+              <span>
+                <a href="">Learn More</a>
+              </span>
+            </p>
+            <p>
+              By signing up, you agree to our
+              <span>
+                <a href="">Tearms ,</a>
+              </span>
+              <span>
+                <a href="">Privacy ,</a>
+              </span>
+              <span>
+                <a href="">Policy and</a>
+              </span>
+              <span>
+                <a href="">Cookies Policy.</a>
+              </span>
+            </p>
           </div>
-          <a href="#" className="textCenter">
-            Forget password?
-          </a>
-        </div>
+          <button type="submit">Sign Up</button>
+        </form>
       </div>
       <div className="lowerPart flex">
         <div className="text">
-          Do you have an account? <span id="signup">Sign up</span>
+          Have an account? <span id="signup">Sign In</span>
         </div>
       </div>
     </div>
