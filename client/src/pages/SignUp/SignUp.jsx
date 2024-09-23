@@ -1,4 +1,5 @@
 import { IoLogoFacebook } from "react-icons/io";
+import { Link } from "react-router-dom";
 import InstaLogoBlack from "../../components/Insta_Logo_Black/InstaLogoBlack.jsx";
 import "./SignUp.css";
 const SignUp = () => {
@@ -49,7 +50,10 @@ const SignUp = () => {
               </span>
             </p>
           </div>
-          <button type="submit">Sign Up</button>
+
+          <button type="submit">
+            <Link to="/sign-up">Sign Up</Link>
+          </button>
         </form>
       </div>
       <div className="lowerPart flex">
